@@ -1,3 +1,15 @@
+This repo is for modification to use on newer GHC version.
+I checked on following environment can `cabal build` this.
+
+| Command | Version  |
+| ------- | -------- |
+| cabal   | 3.10.3.0 |
+| GHC     | 9.4.8    |
+
+Example usage on [this repo](https://github.com/yosukeueda33/atom-use-my-lib).
+
+
+# Original README.mb
 Atom: An EDSL for Embedded Hard Realtime Applications
 ====
 
