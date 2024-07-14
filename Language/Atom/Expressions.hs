@@ -91,6 +91,8 @@ module Language.Atom.Expressions
   ) where
 
 import Data.Bits
+    ( Bits((.&.), complement, (.|.), xor, shiftL, shiftR, bitSizeMaybe,
+           testBit, bit, popCount, rotateL, rotateR, bitSize, isSigned) )
 import Data.Function (on)
 import Data.Int
 import Data.List
